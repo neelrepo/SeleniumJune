@@ -11,6 +11,7 @@ public class BrowserLaunch {
 		driver.manage().window().maximize();
 		WebElement userid = driver.findElementById("email");
 		userid.sendKeys("Testing");
+		System.out.println("Sucess");
 
 	}
 
